@@ -291,11 +291,11 @@ sudo apt install ros-humble-xacro
     
 2.  Clone the repository depending on your system
     
-    - If You have installed Ubuntu 22.04 in your system
+    - If You are using Ubuntu 22.04 with Virtual box
     
     ```bash
     git clone https://github.com/mission-mangal/mazerover-teleop1.git
     ```
     
-    - If You are using Ubuntu 22.04 with Virtual box
+    - 
     - `git clone -2`
