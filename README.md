@@ -304,7 +304,7 @@ sudo apt install ros-humble-xacro
 cd mazerover-teleop1
 colcon build
 source install/setup.bash
-ros2 launch haruto_description visualize_simulation.launch.py
+ros2 launch haruto_description visualize_robot_simulation.launch.py
 ```
 
 #### Open Another Terminal
