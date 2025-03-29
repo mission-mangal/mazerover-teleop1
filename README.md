@@ -288,14 +288,27 @@ sudo apt install ros-humble-xacro
     ```bash
     sudo apt update && sudo apt install -y git
     ```
-    
-2.  Clone the repository depending on your system
-    
-    - If You are using Ubuntu 22.04 with Virtual box
-    
-    ```bash
-    git clone https://github.com/mission-mangal/mazerover-teleop1.git
-    ```
-    
-    - 
-    - `git clone -2`
+# Playing the Game
+
+## If You have pre-installed Ubuntu 22.04 alongside your windows or standalone
+
+### Follow the Link
+
+[https://github.com/mission-mangal/mazerover-teleop2](https://github.com/mission-mangal/mazerover-teleop2)
+
+## If You have been using Ubuntu 22.04 Jammy with Virtual Machine
+
+### Open the Terminal
+
+```bash
+cd mazerover-teleop1
+colcon build
+source install/setup.bash
+ros2 launch haruto_description visualisation_simulation.launch.py
+```
+
+### Open Another Terminal
+
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
