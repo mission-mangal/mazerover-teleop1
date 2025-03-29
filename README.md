@@ -207,7 +207,7 @@ This guide provides a **step-by-step** approach to installing **VMware Workstati
 
 * * *
 
-## **9\. Installing Essential Packages for ROS 2 Development
+## **9\. Installing Essential Packages for ROS 2 Development**
 
 * * *
 
