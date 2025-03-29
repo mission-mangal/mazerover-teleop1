@@ -207,11 +207,11 @@ This guide provides a **step-by-step** approach to installing **VMware Workstati
 
 * * *
 
-# Installing Essential Packages for ROS 2 Development
+## **9\. Installing Essential Packages for ROS 2 Development
 
 * * *
 
-## **1\. Install Additional ROS 2 Dependencies**
+### **1\. Install Additional ROS 2 Dependencies**
 
 Install essential dependencies required for ROS 2 development:
 
@@ -229,7 +229,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 * * *
 
-## **2\. Install Gazebo for Simulation**
+### **2\. Install Gazebo for Simulation**
 
 Gazebo is needed for robot simulation:
 
@@ -239,7 +239,7 @@ sudo apt install -y gazebo11 ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-c
 
 * * *
 
-## **3\. Install RViz for Visualization**
+### **3\. Install RViz for Visualization**
 
 RViz is required for visualizing robot models and sensor data:
 
@@ -249,7 +249,7 @@ sudo apt install -y ros-humble-rviz2 ros-humble-joint-state-publisher-gui
 
 * * *
 
-## **4\. Install Teleoperation Packages**
+### **4\. Install Teleoperation Packages**
 
 To control robots via keyboard:
 
@@ -261,7 +261,7 @@ sudo apt install -y ros-humble-teleop-twist-keyboard
 
 * * *
 
-## **5\. Install Python3 Dependencies**
+### **5\. Install Python3 Dependencies**
 
 If your ROS 2 packages require additional Python dependencies:
 
@@ -271,7 +271,7 @@ sudo apt install -y python3-numpy python3-scipy python3-matplotlib
 
 * * *
 
-## **6\. Install Xacro**
+### **6\. Install Xacro**
 
 Gazebo is needed for robot simulation:
 
@@ -281,24 +281,24 @@ sudo apt install ros-humble-xacro
 
 * * *
 
-### **Install Git and Clone the Repository**
+### **7\. Install Git and Clone the Repository**
 
-1.  Open a terminal in Ubuntu and install Git:
+  Open a terminal in Ubuntu and install Git:
     
     ```bash
     sudo apt update && sudo apt install -y git
     ```
-# Playing the Game
+## **10\. Playing the Game**
 
-## If You have pre-installed Ubuntu 22.04 alongside your windows or standalone
+### If You have pre-installed Ubuntu 22.04 alongside your windows or standalone
 
 ### Follow the Link
 
 [https://github.com/mission-mangal/mazerover-teleop2](https://github.com/mission-mangal/mazerover-teleop2)
 
-## If You have been using Ubuntu 22.04 Jammy with Virtual Machine
+### If You have been using Ubuntu 22.04 Jammy with Virtual Machine
 
-### Open the Terminal
+#### Open the Terminal
 
 ```bash
 cd mazerover-teleop1
@@ -307,7 +307,7 @@ source install/setup.bash
 ros2 launch haruto_description visualisation_simulation.launch.py
 ```
 
-### Open Another Terminal
+#### Open Another Terminal
 
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
