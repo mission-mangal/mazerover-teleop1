@@ -73,7 +73,7 @@ def launch_setup(context, *args, **kwargs):
             # ("world", "../worlds/maze.world"),
             # ("world_name", os.path.abspath(../worlds/maze.world)),
             ("world", world_path),
-            ("gui", "true")  # Disable GUI, run in background
+            ("gui", "false")  # Disable GUI, run in background
         ]
     )
 
