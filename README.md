@@ -234,7 +234,7 @@ rosdep install --from-paths src --ignore-src -r -y
 Gazebo is needed for robot simulation:
 
 ```bash
-sudo apt install -y gazebo11 ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
+sudo apt install -y ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
 ```
 
 * * *
