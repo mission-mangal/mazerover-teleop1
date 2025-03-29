@@ -200,7 +200,6 @@ This guide provides a **step-by-step** approach to installing **VMware Workstati
     
     ```bash
     echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-    echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
     source ~/.bashrc
     ```
     
@@ -235,6 +234,7 @@ Gazebo is needed for robot simulation:
 
 ```bash
 sudo apt install -y ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
+echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
 ```
 
 * * *
