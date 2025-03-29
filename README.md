@@ -290,7 +290,7 @@ sudo apt install ros-humble-xacro
     ```
 ## **10\. Playing the Game**
 
-### If You have pre-installed Ubuntu 22.04 alongside your windows or standalone (dual boot)
+#### If You have pre-installed Ubuntu 22.04 alongside your windows or standalone (dual boot)
 
 ### Follow the Link
 
