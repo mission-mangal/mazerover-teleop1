@@ -89,7 +89,7 @@ This guide provides a **step-by-step** approach to installing **VMware Workstati
 
 1.  Go to the official Ubuntu website:
     - [Ubuntu 22.04 Download Page](https://releases.ubuntu.com/jammy/)
-2.  Click on **Ubuntu 22.04 LTS**.
+2.  Click on **Desktop Image - Ubuntu 22.04 LTS**.
 3.  Click **Download**.
 4.  The file will be named: `ubuntu-22.04-desktop-amd64.iso`.
 
